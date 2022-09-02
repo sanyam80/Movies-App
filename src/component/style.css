@@ -1,0 +1,123 @@
+.flex{
+    display:flex;
+    margin-left:3rem;
+    margin-top:0.7rem;
+    
+}
+.flex h2{
+    font-size: 2.8rem;
+    padding-right:4rem;
+    color:#60a5fa
+}
+.flex img{
+    height:5rem;
+    width:5rem;
+    margin-right:3rem;
+}
+.banner {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:30rem;
+    width:90%;
+  
+    
+}
+
+.getdata{
+ 
+    display:grid;
+    grid-template-columns: repeat(3,15rem);
+    grid-template-rows: repeat(7,14rem);
+    grid-row-gap: 1rem;
+    grid-column-gap: 3rem;
+   
+    justify-content: center;
+
+  
+}
+.banner img{
+    height:100%;
+    width:100%;
+}
+.t1 h1{
+    font-size:2rem;
+    padding-top:1rem;
+}
+
+.loader{
+  
+    display:block;
+    margin:auto;
+}
+.p{
+ margin-bottom:1rem;
+   
+}
+.favourite{
+    padding:3rem;
+}
+.input-group-text{
+    margin:2rem;
+    width:25rem;
+}
+.btn{
+    border:2px solid blue;
+}
+
+
+
+/* @media only screen and(min-width:600px) and(max-width:900px){
+    .banner {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:25rem;
+    width:90%;
+  
+    
+}
+   
+    .banner img{
+        height:100%;
+        width:100%;
+    }
+} */
+@media only screen and(max-width:400px){
+    .flex{
+        display:flex;
+        margin-left:2rem;
+        margin-top:0.7rem;
+        
+    }
+    .flex h2{
+        font-size: 1rem;
+        padding-right:3rem;
+        color:#60a5fa
+    }
+    .flex img{
+        height:3rem;
+        width:5rem;
+        margin-right:3rem;
+    }
+
+.banner {
+  
+    display: block;
+   width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  
+    
+}
+.banner img{
+    width:100%;
+    
+}
+
+
+}
